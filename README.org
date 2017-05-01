@@ -1,0 +1,15 @@
+* cpp-myip
+
+Simple program for getting current IP address from api.ipify.com
+
+You need =libcurl= and =curlpp= libraries for building this program.
+
+Build:
+#+BEGIN_SRC sh
+  mkdir build
+  cd build
+  cmake ..
+  make
+#+END_SRC
+
+License: [[LICENSE][MIT]]
